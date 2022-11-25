@@ -38,7 +38,7 @@ print(os.getcwd())
 model0 = model_from_json(open(os.getcwd() + '/Experiment/Approach/CPSC0223' + '/LSTM0922.json').read())
 model0.load_weights(os.getcwd() + '/Experiment/Approach/CPSC0223' + '/LSTM0922.h5')
 model0.summary()
-'''
+
 model1 = model_from_json(open('train0906naa.json').read())
 model1.load_weights('train0922naa.h5')
 model2 = model_from_json(open('train0906bbb.json').read())
@@ -205,4 +205,3 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     result = cpsc2018(record_base_path=args.recording_path)
-'''
