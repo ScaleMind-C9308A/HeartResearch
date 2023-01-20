@@ -91,7 +91,8 @@ def data_extract(signal_paths: list = data_mat_files, start_point: int = 300,
         else:
             raise Exception("save_path arg cannot be None as save_scale arg is True")
     
-    for _, signal_path in tqdm(enumerate(signal_paths)):
+    for sp_idx in tqdm(range(len(signal_paths))):
+        signal_path = signal_paths[sp_idx]
         signal_filename = signal_path.split("/")[-1].split(".")[0]
 
         filter_save_path = filter_dir + "/{}_lead{}.mat" # filname _ lead
