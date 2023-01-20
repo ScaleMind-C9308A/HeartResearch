@@ -93,7 +93,7 @@ def data_extract(signal_paths: list = data_mat_files, start_point: int = 300,
     
     for sp_idx in tqdm(range(len(signal_paths))):
         signal_path = signal_paths[sp_idx]
-        signal_filename = signal_path.split("/")[-1].split(".")[0]
+        signal_filename = signal_path.split("\\")[-1].split(".")[0]
 
         filter_save_path = filter_dir + "/{}_lead{}.mat" # filname _ lead
         segment_save_path = segment_dir + "/{}_lead{}_seg{}.mat" #filename _ lead _ seg
