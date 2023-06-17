@@ -130,3 +130,7 @@ dmypy.json
 
 Data set/
 .Envir/
+
+*.pt
+/*.pt
+/run_efficientB0
