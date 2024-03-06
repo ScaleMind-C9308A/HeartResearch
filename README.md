@@ -8,18 +8,18 @@ The zip file that we provide includes:
 * File ```make_environment.py```: used to create a virtual environment.
 * File ```requirements.txt```: used to install all necessary Python packages.
 * 5 code folder:
-- Folder "Proposed method": includes two jupyter notebooks implementing proposed ICWA-SE and IWL loss method. One notebook with 0.05 alpha value and one with 0.01 alpha value.
-- Folder "": include jupyter notebooks that we reimplement the state-of-the-art existed methods
-- Folder "": include jupyter notebooks that we replace the loss function used in above state-of-the-art models by our IWL loss function.
-- Folder "": include jupyter notebooks that use proposed ICWA-SE method with several existed loss functions. Each experiment has two cases: 0.05 alpha value and 0.01 alpha value.
-- Folder "": include jupyter notebooks that use some model architectures with our IWL loss function. Each experiment has two cases: 0.05 alpha value and 0.01 alpha value.
+  + Folder "Proposed method": includes two jupyter notebooks implementing proposed ICWA-SE and IWL loss method. One notebook with 0.05 alpha value and one with 0.01 alpha value.
+  + Folder "": include jupyter notebooks that we reimplement the state-of-the-art existed methods
+  + Folder "": include jupyter notebooks that we replace the loss function used in above state-of-the-art models by our IWL loss function.
+  + Folder "": include jupyter notebooks that use proposed ICWA-SE method with several existed loss functions. Each experiment has two cases: 0.05 alpha value and 0.01 alpha value.
+  + Folder "": include jupyter notebooks that use some model architectures with our IWL loss function. Each experiment has two cases: 0.05 alpha value and 0.01 alpha value.
   
 # Experiment
 ## Setup
 This work can be conducted on any platform: Windows, Ubuntu, Google Colab. In Windows or Ubuntu use the following script to create a virtual environment.
 ```
 cd path/to/HeartResearch
-python -m venv .env
+python make_environment.py
 ```
 The Python packages used in this project are listed below. All the packages can be installed by command ```pip install -r requirements.txt```.
 ```
