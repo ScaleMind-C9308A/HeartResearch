@@ -4,13 +4,20 @@
 <p align="justify">In the field of Electrocardiogram (ECG) classification, two primary obstacles arise. Firstly, existing ECG datasets consistently demonstrate imbalances and biases across various modalities. Secondly, the time-series data comprises diverse lead signals, causing Convolutional Neural Networks (CNNs) to become overfitting to high-power ones, hence diminishing the learning efficiency of the Deep Learning (DL) process. Additionally, when the ECG signal is short, performance from such high-dimensional data may be susceptible to overfitting. Despite these evident challenges, current efforts predominantly focus on enhancing DL models by designing novel architectures, seemingly overlooking the core issues. This narrow focus hinders advancements in ECG classification. To tackle these challenges, our proposed method introduces two simple and direct techniques for improving ECG classification learning. To address the high dimensionality issue, we employ an Inverted Channel-wise Attention Squeeze and Excitation (ICWA-SE) on signal-encoded images. This approach reduces redundancy in the feature data range, highlighting changes in the dataset. Simultaneously, to counteract data imbalance, we propose Inverted Weight Logarithmic Loss (IWL) to alleviate imbalances among the data. Our quantitative experiments indicate significantly faster convergence and higher accuracy in ECG classification compared to other baselines from $2\%$ to $7\%$. 
 
 # Folder structure
-The zip file that we provide includes 3 folder:
-- Folder "Proposed method": includes 
+The zip file that we provide includes:
+* File ```make_environment.py```: used to create a virtual environment.
+* File ```requirements.txt```: used to install all necessary Python packages.
+* 5 code folder:
+- Folder "Proposed method": includes two jupyter notebooks implementing proposed ICWA-SE and IWL loss method. One notebook with 0.05 alpha value and one with 0.01 alpha value.
+- Folder "": include jupyter notebooks that we reimplement the state-of-the-art existed methods
+- Folder "": include jupyter notebooks that we replace the loss function used in above state-of-the-art models by our IWL loss function.
+- Folder "": include jupyter notebooks that use proposed ICWA-SE method with several existed loss functions. Each experiment has two cases: 0.05 alpha value and 0.01 alpha value.
+- Folder "": include jupyter notebooks that use some model architectures with our IWL loss function. Each experiment has two cases: 0.05 alpha value and 0.01 alpha value.
+  
 # Experiment
 ## Setup
 This work can be conducted on any platform: Windows, Ubuntu, Google Colab. In Windows or Ubuntu use the following script to create a virtual environment.
 ```
-git clone https://github.com/ScaleMind-C9308A/HeartResearch.git
 cd path/to/HeartResearch
 python -m venv .env
 ```
