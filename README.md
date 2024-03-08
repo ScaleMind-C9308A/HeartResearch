@@ -8,11 +8,11 @@ The zip file that we provide includes:
 * File ```make_environment.py```: used to create a virtual environment.
 * File ```requirements.txt```: used to install all necessary Python packages.
 * 5 code folder:
-  + Folder "Proposed method": includes two jupyter notebooks implementing proposed ICWA-SE and IWL loss method. One notebook with 0.05 alpha value and one with 0.01 alpha value.
-  + Folder "": include jupyter notebooks that we reimplement the state-of-the-art existed methods
-  + Folder "": include jupyter notebooks that we replace the loss function used in above state-of-the-art models by our IWL loss function.
-  + Folder "": include jupyter notebooks that use proposed ICWA-SE method with several existed loss functions. Each experiment has two cases: 0.05 alpha value and 0.01 alpha value.
-  + Folder "": include jupyter notebooks that use some model architectures with our IWL loss function. Each experiment has two cases: 0.05 alpha value and 0.01 alpha value.
+  + Folder "Proposed_Method": includes two jupyter notebooks implementing proposed CME and IWL loss method. One notebook with 0.05 alpha value and one with 0.01 alpha value.
+  + Folder "SOTA_models": include jupyter notebooks that we reimplement the state-of-the-art existed methods
+  + Folder "IWL_loss_SOTA_models": include jupyter notebooks that we replace the loss function used in above state-of-the-art models by our IWL loss function.
+  + Folder "Other_loss_function": include jupyter notebooks that use proposed CME method with several existed loss functions. Each experiment has two cases: 0.05 alpha value and 0.01 alpha value.
+  + Folder "Other_model": include jupyter notebooks that use some model architectures with our IWL loss function. Each experiment has two cases: 0.05 alpha value and 0.01 alpha value.
   
 # Experiment
 ## Setup
