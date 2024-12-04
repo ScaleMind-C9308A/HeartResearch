@@ -1,0 +1,52 @@
+,Label,Name
+0,13903,Normal
+1,1312,Sinus Bradycardia
+2,1115,T-wave Abnormality
+3,878,Sinus Arrhythmia
+4,838,Incomplete Right Bundle-branch Block
+5,505,ST Deviation with T-wave change
+6,468,ST Deviation
+7,390,Right Bundle-branch Block
+8,385,Sinus Tachycardia
+9,175,Ventricular Premature Complex
+10,169,Atrial Fibrillation
+11,165,Low Voltage
+12,102,Right-axis Deviation
+13,86,Atrial Premature Complex
+14,83,Left-axis Deviation
+15,56,Left Anterior Fascicular Block
+16,46,Left Bundle-branch Block
+17,29,Junctional Premature Complex
+18,27,Early Repolarization
+19,23,Left Ventricular Hypertrophy
+20,21,Ventricular Preexcitation
+21,16,Prolonged PR Interval
+22,9,Short PR Interval
+23,8,Junctional Tachycardia
+24,6,Atrial Flutter
+25,5,Second-degree AV block - Mobitz type I
+26,4,Left Posterior Fascicular Block
+27,4,Third-degree Atrioventricular Block
+28,3,Left Atrial Enlargement
+29,2,Non-conducted Premature Atrial Complex
+30,2,TU Fusion
+31,3888,1 Sinus Bradycardia
+32,1825,1 Normal
+33,1780,1 Atrial Fibrillation
+34,1564,1 Sinus Tachycardia
+35,544,Supraventricular Tachycardia
+36,438,1 Atrial Flutter
+37,397,Sinus Irregularity
+38,121,Atrial Tachycardia
+39,16,Atrioventricular Node Reentrant Tachycardia
+40,8,Atrioventricular Reentrant Tachycardia
+41,7,Sinus Atrium to Atrial Wandering Rhythm
+42,1695,2 Right Bundle Branch Block
+43,1098,2 Atrial Fibrillation
+44,918,2 Normal
+45,825,ST-segment Depression
+46,704,First-degree Atrioventricular Block
+47,672,Premature Ventricular Contraction
+48,556,Premature Atrial Contraction
+49,207,2 Left Bundle-branch Block
+50,202,ST-segment Elevated
